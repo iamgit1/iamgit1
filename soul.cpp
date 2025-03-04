@@ -14,7 +14,7 @@
     #include <unistd.h>
 #endif
 
-#define PAYLOAD_SIZE 90
+#define PAYLOAD_SIZE 20
 class Attack {
 public:
     Attack(const std::string& ip, int port, int duration)
